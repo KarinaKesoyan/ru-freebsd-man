@@ -31,7 +31,7 @@
 .Dt TALK 1
 .Os
 .Sh ИМЯ
-.Nm talk
+.Nm говорить
 .Nd общение с другим пользователем
 .Sh СИНОПСИС
 .Nm
@@ -109,12 +109,12 @@ talk: ответьте: talk your_name@your_machine
 команды.
 В самом начале разговор разрешен.
 .Sh ФАЙЛЫ
-.Начало списка-тег-ширина /var/run/utx.active -компактно
-.Путь /etc/hosts
+.Bl-тег-ширина /var/run/utx.active -compact
+.It Pa /etc/hosts
 для поиска машины получателя
-.Путь /var/run/utx.active
+.It Pa /var/run/utx.active
 для поиска терминала получателя
-.Конец списка
+.El
 .Sh СМОТРИ ТАКЖЕ
 .Xr mail 1 ,
 .Xr mesg 1 ,
